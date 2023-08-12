@@ -7,8 +7,13 @@
     "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/udit2910/credit-card-validator-luhn.git"
+  },
   "author": "udit2910",
   "license": "ISC",
+  "homepage": "https://github.com/udit2910/credit-card-validator-luhn#readme",
   "dependencies": {
     "cookie-parser": "^1.4.6",
     "cors": "^2.8.5",
