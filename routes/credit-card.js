@@ -14,7 +14,7 @@ app.post('/validate', async (req, res) => {
     }
   } catch (error) {
     res.status(500).json(error)
-    console.log('error while fetching user details: %j , %s', error, error)
+    console.log('error while validating card details: %j , %s', error, error)
     throw error
   }
 });

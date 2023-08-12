@@ -14,7 +14,7 @@ const validateCard = (body) => {
       return json
     }
   } catch (error) {
-    console.log(`Error in fetching user details: %s , %j`, error, error)
+    console.log(`Error in validating card details: %s , %j`, error, error)
     throw error
   }
 }
